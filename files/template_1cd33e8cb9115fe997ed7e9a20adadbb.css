@@ -271,15 +271,9 @@ body{
     width: 0; 
 }
 
-@media (max-width:1245px){
+@media (max-width:1279px){
   .b_fx_catalog_filter__wrapper{
-      width: 60px;
-      top:60px !important;
-  }
-}
-@media (max-width:1000px){
-  .b_fx_catalog_filter__wrapper{
-      display:none;
+    display:none;
   }
 }
 
@@ -849,7 +843,7 @@ body{
     margin-left:15px;
     margin-top:15px;
 }
-@media (max-width:1245px){
+@media (max-width:1279px){
   .logo.invisible {
     visibility:visible;
   }
@@ -3578,7 +3572,7 @@ body{
   }
 }
 
-@media (min-width:1366px) and (max-width:1560px), (min-width:1024px) and (max-width:1245px), (min-width:768px) and (max-width:1000px){
+@media (min-width:1366px) and (max-width:1560px), (min-width:1020px) and (max-width:1279px), (min-width:768px) and (max-width:1020px){
   .b_catalog__section__item__price{
       width: 98px;
   }
@@ -3615,7 +3609,7 @@ body{
 }
 
 /* Item Box shadow */
-@media (min-width:768px) and (max-width:1245px) {
+@media (min-width:768px) and (max-width:1279px) {
   .b_catalog__section__item{
       -webkit-box-shadow:none;
          -moz-box-shadow:none;
@@ -3707,14 +3701,14 @@ body{
   }
 }
 
-@media (max-width:1245px){
+@media (max-width:1279px){
   .b_catalog{
-    padding-left:60px;
+    padding-left:0;
     padding-bottom: 15px;
     background-image:url(pattern-white.png);
   }
   .b_catalog__container {
-    width:964px;
+    width:auto;
     padding:0;
   }
   .b_catalog__title__wrap{
@@ -3741,7 +3735,7 @@ body{
     margin:0 0 10px;
   }
   .b_catalog__section__item{
-      width: 320px;
+      width: 33.3%;
       height: 528px;
       margin:0;
       border:2px solid #bfbfbf;
@@ -3749,6 +3743,10 @@ body{
   }
   .b_catalog__section__item:nth-child(3n+3){
       border-right-width:0;
+  }
+  .b_catalog__section__item__wrap{
+      width:320px;
+      margin:0 auto;
   }
   .b_catalog__section__item__picture{
       height: 277px;
@@ -3773,7 +3771,7 @@ body{
   }
 }
 
-@media (max-width:1000px){
+@media (max-width:1020px){
   .b_catalog{
     padding-left:0;
     padding-bottom: 15px;
@@ -3794,10 +3792,6 @@ body{
     height: 590px;
     border-width:0 1px 1px 0;
     padding:0;
-  }
-  .b_catalog__section__item__wrap {
-    width:320px;
-    margin:0 auto;
   }
   .b_catalog__section__item:nth-child(3n+3){
       border-right-width:1px;
