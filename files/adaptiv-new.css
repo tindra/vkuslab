@@ -1,0 +1,364 @@
+@media (max-width:1890px) {
+    .b_top_auth__dvd {
+        margin:0 10px;
+    }
+}
+
+@media (max-width:1850px) {
+    .b_top_auth{
+        padding:1px 0 2px 29px;
+        margin-right: 33px;
+        margin-top:16px;
+    }
+    .b_top_auth__login{
+        display:block;
+    }
+    .b_top_auth__dvd {
+        display:none;
+    }
+}
+
+@media (max-width:1740px) {
+    .b_top_menu__list{
+        padding-left:27px;
+    }
+    .b_top_menu__list ul li:before{
+        margin:0 15px 0 11px;
+    }
+}
+
+@media (max-width:1680px) {
+    .b_top_telegrm{
+        margin-right: 31px;
+    }
+    .b_top_phone{
+        margin-right: 35px;
+    }
+    .b_top_order_time{
+        margin-right: 28px;
+    }
+}
+
+@media (max-width:1599px) {
+    .b_top_telegrm{
+        display:none;
+    }
+}
+
+@media (max-width:1460px) {
+    .b_top_menu__list{
+        padding-left:25px;
+    }
+    .b_top_menu__list ul li:before{
+        margin:0 8px 0 4px;
+    }
+    .b_top_cart{
+        width: 100px;
+    }
+    .b_top_cart__quantity{
+        margin-left:10px;
+    }
+    .b_top_auth{
+        margin-right: 19px;
+    }
+    .b_top_phone{
+        margin-right: 25px;
+    }
+    .b_top_order_time{
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:1365px) {
+    .b_top_menu__list ul li:before{
+        margin:0 12px 0 8px;
+    }
+    .b_top_auth{
+        margin-right: 26px;
+    }
+    .b_top_phone{
+        margin-right: 35px;
+        margin-top: 6px;
+        background-position: 0px 49%;
+    }
+    .b_top_phone-time{
+        display:block;
+        font-size:10px;
+        text-transform:uppercase;
+        font-weight:bold;
+        text-align:right;
+        margin-top:1px;
+    }
+    .b_top_order_time{
+        display:none;
+    }
+}
+
+@media (max-width: 1279px){
+    .mobile_header_menu{
+        float: left;
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        height: 60px;
+        font-family: 'Orpheus';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        color: #ffffff;
+        background-color: rgba(97,166,83,0.9);
+        background-image: url('http://vkuslab.ru/bitrix/templates/vkuslab/images/mobile_header_menu_hb.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        text-indent:-9999em;
+    }
+    .mobile_header_menu__c_open{
+        background-image: url('http://vkuslab.ru/bitrix/templates/vkuslab/images/mobile_header_menu_hb_cl.png');
+    }
+
+    .b_fx_left_menu {
+        display:none;
+    }
+    .b_fx_left_menu:after {
+        display:none;
+    }
+    .b_fx_left_menu__inner{
+        display:none;
+    }
+    .b_top_menu__list {
+        display:none;
+    }
+    .b_top_telegrm{
+        display:block;
+        margin-right:30px;
+    }
+    .b_top_phone{
+        margin-right:30px;
+    }
+}
+
+@media (max-width: 1023px){
+    .logo:before,
+    .logo:after {
+        background:rgba(0,0,0,.5);
+        height:1px;
+        position:absolute;
+        left:5px;
+        right:0;
+        content:'';
+    }
+    .logo:before {
+        top:5px;
+    }
+    .logo:after {
+        bottom:-6px;
+    }
+    .logo__word-restaurant {
+        font-size: 11px;
+        border:0;
+        padding:0;
+        margin-left:16px;
+        margin-top:17px;
+        width:84px;
+        line-height:14px;
+    }
+    .b_top_auth{
+        margin-right: 15px;
+    }
+    .b_top_telegrm{
+        display:none;
+    }
+    .b_top_phone{
+        margin-right:22px;
+    }
+}
+@media (min-width: 767px) and (max-width: 782px){
+    .logo__word-restaurant {
+        width:68px;
+    }
+}
+@media (min-width: 640px) and (max-width: 670px){
+    .logo__word-restaurant {
+        width:72px;
+    }
+}
+@media (max-width: 789px){
+    .b_top_phone{
+        margin-right:13px;
+    }
+}
+
+@media (max-width: 767px){
+    .b_top_menu{
+    }
+    .b_fx_left_menu__open__close{
+        background-size: 21px 26px;
+    }
+    .b_top_auth{
+        margin-top:7px;
+        margin-right: 5px;
+        padding:23px 0 0;
+        background-position:50% 0;
+        font-size:9px;
+        line-height:11px;
+    }
+    .b_top_phone{
+        margin-right:10px;
+        background:none;
+        padding:0;
+    }
+    .b_top_cart{
+        width:60px;
+    }
+    .b_top_cart__quantity{
+        width: 18px;
+        height: 22px;
+        float:none;
+        display:block;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAMAAAD6gTxzAAAAgVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtFS1lAAAAK3RSTlMA/EC8hO/Uz1ttaPOZp6Hq5d+wkI1+cmLayayKg11UJhLDspR4d0xHMi4BLtQ7tgAAAIZJREFUeAG1ylduwlAUANFx7nNJ3HsvSej7XyDyE0Jc/jmfo2F3m1yr5qkNg90cBi8J65G2RCRLxUozkWSjzo3pemP5njH5kXKAosSKYigqokSnOCL+h8uKtV7Zl78RpRqQGmUS+gbl8Iv3g/LtfzrlM0rbkS4oS0Z4Rjm5OM2X0jhUzpvxDqbPB/JaYpB2AAAAAElFTkSuQmCC);
+        font-size: 12px;
+        padding-top: 4px;
+        margin:4px auto 3px;
+    }
+    .b_top_cart__price{
+        float:none;
+        display:block;
+        font-size: 12px;
+        width:40px;
+        min-width:40px;
+        margin: 0 auto;
+        padding:4px 0 2px;
+        text-align:center;
+    }
+}
+
+@media (max-width: 639px){
+    .b_top_menu__wrapper {
+        height:100px;
+    }
+    .b_top_menu {
+         top:40px; 
+         text-align:center;
+    }
+    .logo:before,
+    .logo:after {
+        display:none;
+    }
+    .b_fx_left_menu__open__close {
+        background-image: url('http://vkuslab.ru/bitrix/templates/vkuslab/images/mobile_logo1.png');
+        background-size:21px 26px;
+        height:40px;
+    }
+    .logo {
+        float:none;
+        background:rgba(0,0,0,.85);
+        overflow:hidden;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        height:40px;
+    }
+    .logo__word-taste {
+        font-size: 36px;
+        color: #ffffff;
+        margin-top:0;
+    }
+    .logo__word-lab {
+        color: #000000;
+        background:#ffffff;
+        margin-top:9px;
+        margin-left:1px;
+    }
+    .logo__word-restaurant {
+        font-size: 12px;
+        color: #ffffff;
+        border:1px solid #ffffff;
+        border-width:1px 0;
+        padding:3px;
+        margin-left:15px;
+        margin-top:9px;
+        width:auto;
+    }
+    .b_top_telegrm{
+        display:inline-block;
+        padding:32px 0 0;
+        background-position:50% 0;
+        margin:7px 0 0;
+        font-size:10px;
+        float:none;
+    }
+    .b_top_phone{
+        float:left;
+        margin-left:17px;
+        margin-right:0;
+    }
+    
+    .b_top_auth{
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 479px){
+    .b_top_phone{
+        margin-left:10px;
+        margin-right:0;
+    }
+    .b_top_auth{
+        margin-right: 10px;
+    }
+    .b_top_telegrm{
+        display:none;
+    }
+}
+
+@media (max-width: 374px){
+    .b_top_menu__wrapper {
+        height: 90px;
+    }
+    .b_top_menu {
+        height: 50px;
+    }
+    .mobile_header_menu {
+        height: 50px;
+        width:50px;
+    }
+    .b_top_cart {
+        height: 50px;
+        width:50px;
+    }
+    .b_top_cart__quantity {
+        margin: 7px auto 4px;
+    }
+    .b_top_cart__price {
+        border:0;
+        padding:0;
+    }
+    .logo__word-taste {
+        font-size: 35px;
+        margin-top:1px;
+    }
+    .logo__word-restaurant {
+        font-size: 11px;
+        padding:3px 0;
+        margin-left:0;
+    }
+    .b_top_phone{
+        margin-left:5px;
+        margin-top:6px;
+    }
+    .b_top_phone-num{
+        font-size:24px;
+    }
+    .b_top_phone-num::after {
+        margin:0 2px;
+    }
+    .b_top_phone-time {
+        font-size:8px;
+    }
+    .b_top_auth{
+        margin-top:5px;
+        margin-right: 5px;
+        font-size:8px;
+    }
+}
